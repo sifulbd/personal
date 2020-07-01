@@ -1,0 +1,138 @@
+body{
+    font-family: 'Noto Serif', serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: #EC4C7D;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #f7a134;;
+    border: #f7a134;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    transition: 1s;
+}
+
+#top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+.middle{
+    margin-bottom: 150px;
+}
+#dream-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 300px;
+}
+
+.bio{
+    padding-top: 5%;
+}
+.bio p{
+    margin-bottom: 30px;
+}
+
+section#work-area {
+    /* height: 400px; */
+}
+
+#work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#work-area{
+    text-align: center;
+}
+.latest-work img {
+    width: 49%;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.latest-work{
+    margin-left: 0%;
+}
+.center {
+    padding: 70px 0;
+    text-align: center;
+  }
+
+#footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px ;
+}
+.box{
+    margin: 50px 275px;
+    padding: 50px;
+    background-color: #EC4C7D;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.text-content {
+    margin-top: 100px
+}
+.top-banner img {
+    padding: 30px
+}
+
+.dream-area img{
+    padding: 50px;
+    margin-bottom: 20px;
+}
+.dream-area .text-content{
+    padding: 20px
+}
+ .dream-area .text-content p{
+    margin: 30px 0
+ }
+
+ p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+footer {
+    padding: 100px 0
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px
+}
+
+footer p {
+    text-align: right;
+}
