@@ -5,14 +5,25 @@ body{
     padding: 0;
 }
 
-.container {
+/* .container {
     width: 90%;
+} */
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+a {
+    text-decoration: none;
 }
 h1{
     font-size: 50px;
 }
 .name-highlight{
     color: #EC4C7D;
+}
+.top-banner .name-highlight{
+    color: #4ac3a2;
 }
 .half-width{
     width: 40%;
@@ -25,7 +36,7 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-color: #f7a134;;
+    background-color: #f7a134;
     border: #f7a134;
     padding: 10px 20px;
     border-radius: 10px;
@@ -128,9 +139,17 @@ section#work-area {
 footer {
     padding: 100px 0
 }
+footer ul li a{
+   color: #f7a134;
+}
+footer ul li a:hover{
+    color: #f7a134;
+}
 footer ul li {
     display: inline;
-    margin: 0 10px
+    margin: 0 10px;
+    font-size: 22px;
+    line-height: 35px;
 }
 
 footer p {
