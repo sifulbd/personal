@@ -131,6 +131,8 @@ footer {
 footer ul li {
     display: inline;
     margin: 0 10px
+    font-size: 22px;
+    line-height: 35px;
 }
 
 footer p {
