@@ -1,0 +1,250 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #413960;
+}
+.section-separator {
+    padding: 80px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 30px;
+    background-color: #21B573;
+    border-radius: 30px;
+    color: #fff;
+}
+   
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+.header-inner p{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+p{
+    /* font-size: small; */
+    color: #585859;
+}
+.courses .card:hover {
+    /* margin-top: -10px; */
+}
+.courses .card {
+    border: none;
+    box-shadow: 1px 7px 20px 16px #d3d3d347;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.top-section{
+    background-color: #F0FFF0;
+    /* height: 576px; */
+    margin-bottom: 100px;
+}
+
+.my-green-btn, #active{
+    background-color: #21B573;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 33px;
+    line-height: 26px;
+    
+}
+.my-color-green{
+    color: #21B573;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    cursor: pointer;
+
+}
+
+/* subject section's card */
+
+.subject{
+    margin-bottom: 60px;
+}
+
+.subject img{
+    max-height: 100px;
+}
+.subject .card-body{
+    padding: 20px 0 0 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.subject .card-body h5, .subject .card-body p{
+    margin: 0;
+    padding: 0;
+}
+.subject .card{
+    padding: 40px 20px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.subject .card h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 36px;
+}
+.subject .card p {
+
+}
+.subject .card:hover{
+    box-shadow: 2px 6px 11px #d3d3d366
+}
+
+/* course section's card */
+.courses .my-green-btn{
+    margin-top: 40px;
+}
+.courses .card img{
+    padding: 20px;
+}
+.courses .card-footer{
+    background-color: white;
+    border: none;
+}
+.testimonial p{
+    margin-bottom: 0;
+}
+.testimonial{
+    margin: 170px auto;
+}
+
+h2{
+    margin: 50px 0px;
+}
+footer li{
+    list-style: none;
+    line-height: 1.8rem;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffffa1;
+    font-weight: 400;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+footer ul li:first-child{
+    font-size: medium;
+    color: white;
+    font-weight: 500;
+}
+footer{
+    background-color: #282531;
+    color: #fff;
+    padding: 50px;
+    font-weight: 400;
+}
+footer p{
+    margin-bottom: 1rem;
+    /* margin: 50px; */
+    text-align: justify;
+    margin-top: 0;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+footer .copyright{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* extra */
+.nav li{
+    padding: 8px 0px 8px 14px;
+    margin: 0px;
+}
+/* 
+@media (max-height: 320px){
+
+}
+@media (max-height: 414px){
+    
+}
+@media (max-height: 703px){
+
+}
+@media (max-height: 768px){
+
+} */
+
+@media (max-width: 373px){
+    body{
+        text-align: center;
+    }
+    h1{
+        font-size: 1.5rem;
+        line-height: 0.8rem;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.35rem;
+    }
+    h5{
+        font-size: 0.85rem;
+    }
+    
+    h6, p{
+        font-size: 0.7rem;
+    }
+    .subject{
+        margin-top: 100px;
+    }
+    .testimonial{
+        margin: 0px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 575px) {  
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .testimonial{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px){
+    
+}
+@media (max-width: 992px){
+
+}
+@media (max-width: 1200px){
+
+}
+@media (max-width: 768px){
+
+}
