@@ -100,6 +100,9 @@ p{
     border-radius: 10px;
     box-shadow: none;
 }
+.courses .card h6 img {
+    padding: 0;
+}
 .subject .card h5{
     font-style: normal;
     font-weight: 500;
