@@ -214,7 +214,7 @@ footer .copyright{
 @media (max-height: 768px){
 
 } */
-
+/* 
 @media (max-width: 373px){
     body{
         text-align: center;
@@ -244,17 +244,29 @@ footer .copyright{
         flex-direction: column;
     }
 }
+*/
 
-@media (min-width: 380px) and (max-width: 575px) {  
+@media (max-width: 575px) {  
     .nav{
         display: flex;
         justify-content: space-between;
     }
-    .testimonial{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 49px;
+    }
+    .header-inner {
+        margin-bottom: 30px;
+    }
+    .top-section {
+        background-color: #F0FFF0;
+        /* height: 576px; */
+        margin-bottom: 0;
+    }
+    ul {
+        padding-left: 0;
     }
 }
 
@@ -269,4 +281,4 @@ footer .copyright{
 }
 @media (max-width: 768px){
 
-}
+} 
