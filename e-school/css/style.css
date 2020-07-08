@@ -110,6 +110,9 @@ p{
 .subject .card p {
 
 }
+.subject .card.active{
+    box-shadow: 2px 6px 11px #d3d3d366
+}
 .subject .card:hover{
     box-shadow: 2px 6px 11px #d3d3d366
 }
